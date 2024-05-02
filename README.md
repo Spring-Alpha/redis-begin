@@ -36,5 +36,5 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true 
-    ```
+```
 
