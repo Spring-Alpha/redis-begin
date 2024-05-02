@@ -27,7 +27,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/inventory
     username: postgres
-    password: Alifpass@49
+    password: *********
 
   jpa:
     hibernate:
@@ -35,5 +35,4 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-    show-sql: true
-```
+    show-sql: true ```
