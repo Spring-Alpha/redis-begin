@@ -9,11 +9,9 @@ Learning about redis...
  - Finally, I followed a tutorial from medium.
 >[Spring Boot Caching with Redis](https://medium.com/simform-engineering/spring-boot-caching-with-redis-1a36f719309f)
  - The caching system working fine :)
-<br/>
-<br/>
  - My **application.yml** file below...
 <br/>
-``` application.yml
+``` 
 spring:
   application:
     name: redis-begin
