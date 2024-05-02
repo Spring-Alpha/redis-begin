@@ -11,7 +11,7 @@ Learning about redis...
  - The caching system working fine :)
  - My **application.yml** file below...
 <br/>
-``` 
+```application.yml
 spring:
   application:
     name: redis-begin
@@ -35,4 +35,6 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-    show-sql: true ```
+    show-sql: true 
+    ```
+
