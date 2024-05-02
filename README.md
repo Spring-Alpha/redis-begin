@@ -11,7 +11,8 @@ Learning about redis...
  - The caching system working fine :)
 <br/>
 <br/>
- - My **application.yml** file below
+ - My **application.yml** file below...
+<br/>
 ``` application.yml
 spring:
   application:
