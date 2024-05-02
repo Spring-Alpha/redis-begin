@@ -9,3 +9,31 @@ Learning about redis...
  - Finally, I followed a tutorial from medium.
 >[Spring Boot Caching with Redis](https://medium.com/simform-engineering/spring-boot-caching-with-redis-1a36f719309f)
  - The caching system working fine :)
+<br/>
+<br/>
+ - My **application.yml** file below
+``` application.yml
+spring:
+  application:
+    name: redis-begin
+
+  cache:
+    type: redis
+    redis:
+      host: localhost
+      port: 6379
+      time-to-live: 60000
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/inventory
+    username: postgres
+    password: Alifpass@49
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
